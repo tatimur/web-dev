@@ -177,14 +177,7 @@ p {
 }
 .form {
     text-align: center;
-}
-.name {
-    margin-right: 10px;
-}
-.name, .mail {
-    border: none;
-    padding: 10px 10px;
-    width: 235px;
+    
 }
 textarea {
     border: none;
