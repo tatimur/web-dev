@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .outer-wrapper {
     width: 100%;
@@ -15,8 +16,13 @@ li {
 a {
     text-decoration: none;
 }
+h1 {
+    font-size: 48px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 h2 {
-    font-weight: 500;
+    text-align: center;
     font-size: 32px;
     line-height: 37px;
     margin-block-start: 0;
@@ -36,9 +42,51 @@ p {
 .top-nav ul {
     text-transform:uppercase;
 }
+.top-block {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav li {
+    display: inline-block;
+    padding-left: 35px;
+}
+.top-midle {
+    display: flex;
+    margin: 100px 90px 0 90px;
+    padding-bottom: 100px;
+}
+.millde-block-text {
+    padding-left: 100px;
+}
+.top-p {
+    line-height: 26px;
+    color: #727272;
+    padding: 40px 0;
+}
+.top-btn {
+    background-color: #34547A;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+.img-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /*обо мне*/
 .out-about-me {
     background-color: #E5E5E5;
+}
+.about-me {
+    padding: 100px 0;
+}
+.about-me h2 {
+    margin-bottom: 30px;
 }
 .about-me-p {
     font-size: 16px;
@@ -46,6 +94,8 @@ p {
     color: #727272;
     margin-block-start: 0;
     margin-block-end: 0;
+    text-align: center;
+    margin: 0 270px;
 }
 /*проекты*/
 .project-out {
@@ -55,6 +105,7 @@ p {
 .project {
     display: flex;
     justify-content: space-around;
+    padding: 60px 0;
 }
 .project-item {
     display: flex;
@@ -63,13 +114,33 @@ p {
 .skills-out {
     background-color: #E5E5E5;
 }
-/*фото*/
-.out-photo {
-    background-color:#EEEFF1 ;
+.skills-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.skills-item {
+    line-height: 26px;
+    color: #727272;
 }
 /*как я работаю*/ 
 .out-work {
     background-color:#EEEFF1 ;
+}
+.inner-work {
+    padding: 100px 0;
+}
+.how-work-p {
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0 270px;
+    padding: 30px 0;
+}
+/*фото*/
+.out-photo {
+    background-color:#E5E5E5 ;
 }
 .photos {
     max-width: 1920px;
@@ -82,10 +153,68 @@ p {
     background-color: #E5E5E5;
 }
 .logo {
+    padding: 70px 0;
     display: flex;
 }
 .logo img:nth-child(1),
 .logo img:nth-child(2),
 .logo img:nth-child(3) {
     padding-right: 50px;
+}
+/*форма*/
+.out-form {
+    background-color: #EEEFF1;
+}
+.inner-form {
+    padding: 70px 0;
+}
+.form-p {
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 0 270px;
+    padding: 30px 0;
+}
+.form {
+    text-align: center;
+}
+.name {
+    margin-right: 10px;
+}
+.name, .mail {
+    border: none;
+    padding: 10px 10px;
+    width: 235px;
+}
+textarea {
+    border: none;
+    margin-top: 10px;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+}
+.form-btn {
+    background-color: #34547A;
+    color: white;
+    border: none;
+    padding: 13px 35px;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+/*футер*/
+.out-footer {
+    background-color: #34547A;
+}
+.footer {
+    padding: 50px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    display: flex;
+}
+.fa-vk {
+    padding-left: 10px;
 }
