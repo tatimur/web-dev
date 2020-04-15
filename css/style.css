@@ -235,7 +235,7 @@ textarea {
     padding-left: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 449px) {
     .top-midle {
         display: flex;
         flex-wrap: wrap;
@@ -307,7 +307,7 @@ textarea {
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 800px) {
+@media screen and (min-width: 451px) and (max-width: 800px) {
     .top-block {
         margin: 0 15px;
     }
@@ -372,5 +372,29 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .skills-inner {
+        margin: 0 15px;
+    }
+    .how-work-p {
+        margin: 0 0 40px 0;
+    }
+    .photos img {
+        margin: 0 auto;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+    .logo img {
+        margin: 0 auto;
+        padding: 0 100px;
+    }
+    .logo img:nth-child(1),
+    .logo img:nth-child(2),
+    .logo img:nth-child(3) {
+        padding: 0 100px;
+    }
+    .footer {
+        margin: 0 15px;
     }
 }
